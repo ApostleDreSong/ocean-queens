@@ -1,0 +1,13 @@
+.footer {
+	background-color: black;
+	padding: 10px;
+	color: white;
+	justify-content: space-evenly
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.footer {
+        justify-content: flex-start;
+    }
+}

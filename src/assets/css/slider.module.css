@@ -1,0 +1,25 @@
+.slider {
+	overflow: hidden;
+	height: 400px;
+}
+
+@media only screen and (max-width: 992px) {
+	/* For mobile phones: */
+	.slider {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.slider {
+		height: 250px;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	/* For mobile phones: */
+	.slider {
+		height: 150px;
+	}
+}
